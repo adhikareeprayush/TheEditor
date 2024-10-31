@@ -1,0 +1,142 @@
+@import url("https://fonts.cdnfonts.com/css/f-fighter-fish");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+.App {
+  overflow: hidden;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.header h1 {
+  font-family: "f Fighter Fish", sans-serif;
+  font-size: 3rem;
+  height: 10%;
+}
+
+.header {
+  background-color: #0b1c31;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid white;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.editor-container {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid white;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 10%;
+  justify-content: space-between;
+}
+
+.editor-nav,
+.output-nav {
+  background-color: #2d2f34;
+  padding: 0rem 2rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 50%;
+  color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.editor-nav {
+  border-right: 1px solid white;
+}
+
+.editor-nav-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn has:img {
+  padding: 0px;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
+
+.file-name {
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+}
+
+.file-name p {
+  /* background-color: grey; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+}
+
+.output {
+  height: 90%;
+  background-color: #1c2130;
+  width: 50%;
+  padding: 1rem;
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.run-btn {
+  background-color: rgb(53, 53, 218);
+  border: 1px solid rgb(53, 53, 218);
+}
